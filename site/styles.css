@@ -66,14 +66,9 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .text-link span { color: var(--accent); font-size: 14px; }
 .episode-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 19px; }
 .episode-card { overflow: hidden; background: var(--night-card); }
-.episode-poster { position: relative; display: block; overflow: hidden; aspect-ratio: 16 / 9; background: #30383c; }
-.episode-poster::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(15,18,20,.65), transparent 55%); }
-.episode-poster img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s ease; }
-.episode-card:hover .episode-poster img { transform: scale(1.045); }
-.episode-number { position: absolute; z-index: 1; top: 17px; left: 18px; padding: 7px 9px; background: var(--accent); color: var(--night); font-size: 7px; font-weight: 700; letter-spacing: .13em; }
-.poster-play { position: absolute; z-index: 1; right: 19px; bottom: 17px; display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgba(255,255,255,.8); border-radius: 50%; color: #fff; transition: background .18s ease, color .18s ease; }
-.episode-card:hover .poster-play { background: var(--accent); border-color: var(--accent); color: var(--night); }
-.poster-play svg { width: 17px; fill: currentColor; }
+.episode-player { position: relative; overflow: hidden; aspect-ratio: 16 / 9; background: #090d0f; }
+.episode-player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.episode-number { position: absolute; z-index: 1; top: 17px; left: 18px; padding: 7px 9px; background: var(--accent); color: var(--night); font-size: 7px; font-weight: 700; letter-spacing: .13em; pointer-events: none; }
 .episode-info { padding: 22px 23px 25px; }
 .episode-tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .episode-tags span { padding: 5px 7px; border: 1px solid var(--line); color: #aeb5b5; font-size: 7px; font-weight: 500; letter-spacing: .13em; }
@@ -102,13 +97,15 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .closing .eyebrow { justify-content: center; margin-bottom: 15px; }
 .closing h2 { margin: 0 0 23px; font-size: clamp(34px, 4.3vw, 57px); }
 .closing .button { min-width: 195px; }
-.site-footer { display: grid; grid-template-columns: 1fr 1fr auto auto; align-items: center; gap: 27px; min-height: 97px; padding: 18px clamp(24px, 7vw, 112px); background: #111619; }
+.site-footer { display: grid; grid-template-columns: 1fr 1fr auto auto auto; align-items: center; gap: 27px; min-height: 97px; padding: 18px clamp(24px, 7vw, 112px); background: #111619; }
 .brand-footer img { width: 44px; height: 44px; }
 .brand-footer { font-size: 8px; }
 .brand-footer strong { font-size: 9px; }
 .site-footer > p { margin: 0; color: #8d9595; font-size: 8px; letter-spacing: .1em; }
 .footer-channel { color: #d9dcda; font-size: 9px; font-weight: 500; text-decoration: none; transition: color .18s ease; }
 .footer-channel span { color: var(--accent); font-size: 13px; }
+.footer-contact { color: #d9dcda; font-size: 9px; text-decoration: none; overflow-wrap: anywhere; transition: color .18s ease; }
+.footer-contact:hover { color: var(--accent); }
 .copyright { color: #727a7a; font-size: 7px; white-space: nowrap; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
@@ -138,7 +135,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .about { padding: 67px 0 72px; }
   .about-inner { grid-template-columns: .85fr 1.15fr; gap: 30px; }
   .about-art { min-height: 315px; }
-  .site-footer { grid-template-columns: 1fr auto auto; gap: 14px; }
+  .site-footer { grid-template-columns: 1fr auto auto auto; gap: 14px; }
   .site-footer > p { display: none; }
 }
 
@@ -177,7 +174,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .closing { padding: 68px 20px 72px; }
   .closing h2 { font-size: clamp(32px, 10vw, 45px); }
   .site-footer { grid-template-columns: 1fr auto; padding: 20px; }
-  .footer-channel { justify-self: end; }
+  .footer-contact { grid-column: 1 / -1; }
+  .footer-channel { grid-column: 2; grid-row: 1; justify-self: end; }
   .copyright { grid-column: 1 / -1; }
 }
 
