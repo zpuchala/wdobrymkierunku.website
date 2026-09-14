@@ -3,11 +3,11 @@
   --night: #171d21;
   --night-soft: #1e252a;
   --night-card: #222a2f;
-  --accent: #dc5845;
-  --accent-rgb: 220, 88, 69;
-  --paper: #f5f3ec;
+  --accent: #57B8C7;
+  --accent-rgb: 87, 184, 199;
+  --paper: #F0F4F4;
   --muted: #a3aaab;
-  --line: rgba(245, 243, 236, .13);
+  --line: rgba(240, 244, 244, .13);
   --font: 'Poppins', 'Avenir Next', Avenir, 'Segoe UI', Arial, sans-serif;
 }
 
@@ -43,7 +43,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 11px; padding: 0 20px; font-size: 9px; font-weight: 600; letter-spacing: .05em; text-decoration: none; text-transform: uppercase; transition: background .2s ease, color .2s ease, border-color .2s ease, transform .2s ease; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--accent); color: #171b1d; }
-.button-primary:hover { background: #ed7461; }
+.button-primary:hover { background: #7CCDD6; }
 .button svg { width: 18px; fill: currentColor; }
 .button-outline { border: 1px solid rgba(255,255,255,.54); color: #fff; }
 .button-outline:hover { border-color: var(--accent); color: var(--accent); }
@@ -83,7 +83,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .episode-info > a span { font-size: 14px; }
 .about { padding: 86px 0 91px; background: #20272b; }
 .about-inner { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(40px, 8vw, 112px); }
-.about-art { position: relative; display: grid; min-height: 370px; place-items: center; overflow: hidden; border: 1px solid rgba(245,243,236,.08); background: radial-gradient(ellipse at 51% 48%, rgba(var(--accent-rgb),.06), transparent 50%), #192024; }
+.about-art { position: relative; display: grid; min-height: 370px; place-items: center; overflow: hidden; border: 1px solid rgba(240,244,244,.08); background: radial-gradient(ellipse at 51% 48%, rgba(var(--accent-rgb),.06), transparent 50%), #192024; }
 .about-art::before, .about-art::after { position: absolute; width: 355px; height: 355px; border: 1px solid rgba(var(--accent-rgb),.12); border-radius: 50%; content: ''; }
 .about-art::after { width: 270px; height: 270px; }
 .about-art img { position: relative; z-index: 1; width: min(82%, 340px); opacity: .94; }
