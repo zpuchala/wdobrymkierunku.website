@@ -230,7 +230,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .route-table caption{padding:13px 14px;border-bottom:1px solid var(--line);color:#8d9895;font-size:10px;line-height:1.6;text-align:left}
 .article-body h2[id]{scroll-margin-top:24px}
 @media(max-width:560px){
-  .article-dates{display:grid;gap:6px;margin-bottom:27px;font-size:11px}
+  .article-dates{display:grid;gap:6px;margin-bottom:27px;font-size:12px}
   .article-dates span+span{padding-left:0;border-left:0}
   .article-alert{padding:15px 16px}
   .article-alert p{font-size:15px}
