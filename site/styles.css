@@ -228,6 +228,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .faq-list details[open] summary::after{content:'−'}
 .faq-list details p{margin:0;padding:0 17px 16px;color:#b8c0be;font-size:15px;line-height:1.75}
 .route-table caption{padding:13px 14px;border-bottom:1px solid var(--line);color:#8d9895;font-size:10px;line-height:1.6;text-align:left}
+.table-scroll-note{margin:0 0 8px;color:#8f9a97;font-size:12px;line-height:1.5}
 .article-body h2[id]{scroll-margin-top:24px}
 @media(max-width:560px){
   .article-dates{display:grid;gap:6px;margin-bottom:27px;font-size:12px}
