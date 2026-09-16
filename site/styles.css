@@ -242,3 +242,34 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .faq-list summary{font-size:15px}
   .faq-list details p{font-size:15px}
 }
+
+/* Trust, transcripts and author details */
+.article-byline{margin:10px 0 0;color:#b4bfbb;font-size:12px;line-height:1.6}
+.article-byline a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.article-transcript-intro{color:#aeb9b5!important;font-size:14px!important;line-height:1.7!important}
+.article-transcript{margin:20px 0 36px;border:1px solid var(--line);background:rgba(34,42,47,.45)}
+.article-transcript summary{cursor:pointer;padding:16px 18px;color:#e7ede9;font-size:15px;font-weight:600;list-style:none}
+.article-transcript summary::-webkit-details-marker{display:none}
+.article-transcript summary::after{float:right;color:var(--accent);content:'+';font-size:20px;font-weight:400;line-height:1}
+.article-transcript[open] summary::after{content:'−'}
+.transcript-inner{padding:4px 19px 19px;border-top:1px solid var(--line)}
+.transcript-inner h3{margin:23px 0 7px;color:var(--accent);font-size:15px;line-height:1.45}
+.transcript-inner p{margin:0 0 12px;color:#bac3bf;font-size:14px;line-height:1.75}
+.transcript-source{margin-top:22px!important;padding-top:15px;border-top:1px solid var(--line);color:#8e9995!important;font-size:12px!important}
+.episode-date{margin:0 0 6px!important;color:#7f8b89!important;font-size:9px!important;letter-spacing:.03em}
+.episode-new{border-color:rgba(var(--accent-rgb),.7)!important;color:var(--accent)!important}
+.about-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.gpx-grid{margin-top:16px}
+.author-page .article-hero{background-image:linear-gradient(135deg,rgba(12,17,19,.96),rgba(28,48,53,.78))}
+.author-page .article-lead{max-width:760px}
+.author-page .article-body h2{margin-top:0}
+.author-card{padding:25px;border:1px solid var(--line);background:rgba(34,42,47,.5)}
+.author-card p{margin:0 0 14px}
+@media(max-width:560px){
+  .article-byline{font-size:11px}
+  .article-transcript summary{font-size:14px}
+  .transcript-inner{padding:2px 15px 16px}
+  .transcript-inner h3{font-size:14px}
+  .transcript-inner p{font-size:14px}
+  .about-actions{align-items:stretch;flex-direction:column}
+}
