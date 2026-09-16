@@ -154,5 +154,21 @@
       <a class="footer-contact" href="mailto:kontakt@wdobrymkierunku.eu">kontakt@wdobrymkierunku.eu</a>
       <span class="copyright">© 2026 W Dobrym Kierunku</span>
     </footer>
-  </body>
+  <script>
+document.querySelectorAll('.video-poster').forEach(function (poster) {
+  poster.addEventListener('click', function () {
+    var id = poster.getAttribute('data-video-id');
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+    iframe.title = poster.getAttribute('aria-label') || 'Odtwarzacz YouTube';
+    iframe.loading = 'eager';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    poster.replaceWith(iframe);
+    iframe.focus();
+  });
+});
+</script>
+</body>
 </html>
