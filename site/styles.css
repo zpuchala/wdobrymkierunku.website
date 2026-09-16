@@ -273,3 +273,11 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .transcript-inner p{font-size:14px}
   .about-actions{align-items:stretch;flex-direction:column}
 }
+
+/* Homepage video performance: load the YouTube iframe after an intentional click */
+.video-poster{position:absolute;z-index:0;inset:0;width:100%;height:100%;padding:0;border:0;background:#090d0f;cursor:pointer}
+.video-poster img{display:block;width:100%;height:100%;object-fit:cover;opacity:.78;transition:opacity .2s ease,transform .25s ease}
+.video-poster::after{position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,12,14,.65),rgba(8,12,14,.08));content:''}
+.video-poster-play{position:absolute;z-index:1;top:50%;left:50%;display:grid;width:54px;height:54px;place-items:center;border:1px solid rgba(var(--accent-rgb),.8);border-radius:50%;color:var(--accent);font-size:19px;transform:translate(-50%,-50%);transition:background .2s ease,color .2s ease}
+.video-poster:hover img{opacity:.95;transform:scale(1.02)}
+.video-poster:hover .video-poster-play{background:var(--accent);color:var(--night)}
