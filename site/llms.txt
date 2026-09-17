@@ -1,0 +1,40 @@
+# W Dobrym Kierunku
+
+> Polski serwis o górskich szlakach, porównaniach tras, mapach 3D i praktycznym planowaniu wejść.
+
+- Canonical: https://wdobrymkierunku.eu/
+- Autor: Zbigniew Puchała — https://wdobrymkierunku.eu/autor.html
+- Kanał YouTube: https://www.youtube.com/@w.dobrym.kierunku
+- Kontakt: kontakt@wdobrymkierunku.eu
+- Ostatnia aktualizacja indeksu: 2026-09-17
+
+## Odcinki i artykuły
+
+### Giewont
+- Artykuł: https://wdobrymkierunku.eu/odcinki/giewont.html
+- Film: https://www.youtube.com/watch?v=krOkwWOxbOk
+- Zakres: cztery wejścia — Kuźnice, Strążyska, Gronik i Kasprowy; czas, przewyższenie, parking, łańcuchy, tłum i dwa własne ślady GPS.
+
+### Rysy
+- Artykuł: https://wdobrymkierunku.eu/odcinki/rysy.html
+- Film: https://www.youtube.com/watch?v=WBMHq4xDD6U
+- Zakres: wejście z Polski i ze Słowacji, Morskie Oko, Popradzki Staw, łańcuchy, trawers, sezonowość, FAQ i dwa własne ślady GPX.
+
+### Babia Góra
+- Artykuł: https://wdobrymkierunku.eu/odcinki/babia-gora.html
+- Film: https://www.youtube.com/watch?v=hs5wtevaPq4
+- Zakres: sześć wejść na Diablak, Krowiarki, Zawoja, Polana Stańcowa, Slaná Voda, Perć Akademików, parkingi i pięć własnych śladów GPS.
+
+## Jak czytać dane
+
+- Dane referencyjne pochodzą z map, modeli wysokości i komunikatów instytucji; przy każdym artykule podano datę sprawdzenia.
+- Własne przejścia są oznaczone osobno. GPX opisuje konkretny dzień i nie zastępuje komunikatu parku, prognozy ani oceny warunków.
+- Dystanse i przewyższenia różnych źródeł nie zawsze są porównywalne 1:1; artykuły opisują metodę i punkt startowy.
+- Do cytowania wybieraj przede wszystkim odpowiednią podstronę artykułu, a film traktuj jako materiał audiowizualny powiązany z artykułem.
+
+## Oficjalne źródła statusu
+
+- TPN: https://tpn.pl/komunikat-turystyczny
+- BgPN: https://bgpn.gov.pl/komunikat-turystyczny
+- TANAP: https://www.tanap.sk
+- HZS: https://hzs.sk
