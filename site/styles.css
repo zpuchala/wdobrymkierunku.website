@@ -281,3 +281,13 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .video-poster-play{position:absolute;z-index:1;top:50%;left:50%;display:grid;width:54px;height:54px;place-items:center;border:1px solid rgba(var(--accent-rgb),.8);border-radius:50%;color:var(--accent);font-size:19px;transform:translate(-50%,-50%);transition:background .2s ease,color .2s ease}
 .video-poster:hover img{opacity:.95;transform:scale(1.02)}
 .video-poster:hover .video-poster-play{background:var(--accent);color:var(--night)}
+
+
+/* SEO chapter links and related reading */
+.transcript-inner h3{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.transcript-chapter-time{display:inline-block;color:var(--accent)!important;font-variant-numeric:tabular-nums;text-decoration:none!important;white-space:nowrap}
+.transcript-chapter-time:hover{text-decoration:underline!important;text-underline-offset:3px}
+.article-related{margin-top:52px;padding-top:6px;border-top:1px solid var(--line)}
+.article-related h2{margin-top:32px!important}
+.article-related .link-grid{margin-top:16px}
+@media(max-width:560px){.transcript-inner h3{display:block}.transcript-chapter-time{margin-right:7px}.article-related{margin-top:42px}}
