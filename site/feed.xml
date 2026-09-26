@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <title>W Dobrym Kierunku — góry, szlaki i dobry plan</title>
-  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy i Giewont.</subtitle>
+  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy, Giewont i Śnieżkę.</subtitle>
   <link href="https://wdobrymkierunku.eu/" rel="alternate" type="text/html"/>
   <link href="https://wdobrymkierunku.eu/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://wdobrymkierunku.eu/</id>
-  <updated>2026-09-17T20:45:49Z</updated>
+  <updated>2026-09-26T11:25:00Z</updated>
   <author><name>Zbigniew Puchała</name><uri>https://wdobrymkierunku.eu/autor.html</uri></author>
+  <entry>
+    <title>Śnieżka — 52 warianty wejścia</title>
+    <link href="https://wdobrymkierunku.eu/odcinki/sniezka.html" rel="alternate"/>
+    <id>https://wdobrymkierunku.eu/odcinki/sniezka.html</id>
+    <published>2026-09-26T00:00:00Z</published>
+    <updated>2026-09-26T11:25:00Z</updated>
+    <summary>Porównanie 52 wariantów wejścia na Śnieżkę z Polski i Czech, pięciu jednodniowych podejść oraz dwudniowej grani ze Szklarskiej Poręby. Film zostanie podlinkowany po premierze.</summary>
+  </entry>
   <entry>
     <title>Giewont — szlak i 4 trasy</title>
     <link href="https://wdobrymkierunku.eu/odcinki/giewont.html" rel="alternate"/>
