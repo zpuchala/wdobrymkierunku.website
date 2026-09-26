@@ -28,10 +28,17 @@
 ### Śnieżka
 - Artykuł: https://wdobrymkierunku.eu/odcinki/sniezka.html
 - Film: jeszcze nieopublikowany — link zostanie dodany po premierze
-- Zakres: 52 warianty wejścia z Polski i Czech, Wang–Samotnia, Dolina Łomniczki, Sowia Przełęcz, Obří důl, Růžohorky oraz dwudniowa grań ze Szklarskiej Poręby. Artykuł zawiera trzy własne ślady GPX autora z 03–05.04.2026.
-- GPX 03.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-03-szklarska-poreba.gpx
-- GPX 04.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-04-podgorzyn.gpx
-- GPX 05.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-05-spindleruv-mlyn.gpx
+- Zakres: 52 warianty wejścia z Polski i Czech, Wang–Samotnia, Dolina Łomniczki, Sowia Przełęcz, Obří důl, Růžohorky oraz dwudniowa grań ze Szklarskiej Poręby. Artykuł zawiera trzy własne ślady GPX autora z 03–05.04.2026 oraz sześć referencyjnych plików GPX do opisanych wariantów tras.
+- GPX własny 03.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-03-szklarska-poreba.gpx
+- GPX własny 04.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-04-podgorzyn.gpx
+- GPX własny 05.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-05-spindleruv-mlyn.gpx
+- GPX wariant Szrenica–grań–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-szrenica-sniezka.gpx
+- GPX wariant Karpacz–Dolina Łomniczki–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-karpacz-lomniczka.gpx
+- GPX wariant Karpacz–Samotnia–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-karpacz-samotnia.gpx
+- GPX wariant Karpacz–Sowia Przełęcz–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-karpacz-sowia-przelecz.gpx
+- GPX wariant Pec–Obří důl–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-pec-obri-dul.gpx
+- GPX wariant Pec–Růžová hora–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-pec-ruzova-hora.gpx
+- Model 3D obserwatorium na Śnieżce: BZB UAS — https://www.bzbuas.com — model udostępniony wyłącznie na potrzeby tego odcinka.
 
 ## Jak czytać dane
 
