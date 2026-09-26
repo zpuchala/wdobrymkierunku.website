@@ -29,6 +29,9 @@
 - Artykuł: https://wdobrymkierunku.eu/odcinki/sniezka.html
 - Film: jeszcze nieopublikowany — link zostanie dodany po premierze
 - Zakres: 52 warianty wejścia z Polski i Czech, Wang–Samotnia, Dolina Łomniczki, Sowia Przełęcz, Obří důl, Růžohorky oraz dwudniowa grań ze Szklarskiej Poręby. Artykuł zawiera trzy własne ślady GPX autora z 03–05.04.2026.
+- GPX 03.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-03-szklarska-poreba.gpx
+- GPX 04.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-04-podgorzyn.gpx
+- GPX 05.04.2026: https://wdobrymkierunku.eu/assets/gpx/sniezka-gran-2026-04-05-spindleruv-mlyn.gpx
 
 ## Jak czytać dane
 
