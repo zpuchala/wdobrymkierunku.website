@@ -39,6 +39,7 @@
 - GPX wariant Pec–Obří důl–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-pec-obri-dul.gpx
 - GPX wariant Pec–Růžová hora–Śnieżka: https://wdobrymkierunku.eu/assets/gpx/sniezka-pec-ruzova-hora.gpx
 - Zestawienie 52 dojść / 90 pełnych wariantów z linkami do Mapy-Turystycznej: https://wdobrymkierunku.eu/assets/docs/sniezka-52-tras-mapa-turystyczna.md
+- Dane maszynowe 52 unikalnych dojść (JSON): https://wdobrymkierunku.eu/assets/docs/sniezka-52-dojscia.json
 - Model 3D obserwatorium na Śnieżce: BZB UAS — https://www.bzbuas.com — model udostępniony wyłącznie na potrzeby tego odcinka.
 
 ## Jak czytać dane
