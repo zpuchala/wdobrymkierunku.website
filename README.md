@@ -41,5 +41,8 @@ Następnie otwórz `http://localhost:8000`.
 - Tekst, odcinki i metadane: `site/index.html`
 - Wygląd i wersja mobilna: `site/styles.css`
 - Ikona kanału i ilustracja mapy: `site/assets/`
+- Grafika podglądu Orlej Perci: `site/assets/images/orla-perc-social.svg` (źródło) i `orla-perc-social.png` (1200 × 630 px, do udostępniania).
+
+Publiczny GPX Orlej Perci jest kopią bez pomiarów tętna i kadencji; współrzędne, wysokości i znaczniki czasu są zachowane. Oryginał pozostaje lokalnie w `.local-backups/gpx/`, poza publikowanym katalogiem `site/`. Katalog kopii jest ignorowany przez Git.
 
 Każdy push do `main` zawierający zmiany w `site/` uruchamia publikację.

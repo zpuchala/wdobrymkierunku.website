@@ -6,9 +6,15 @@
 - Autor: Zbigniew Puchała — https://wdobrymkierunku.eu/autor.html
 - Kanał YouTube: https://www.youtube.com/@w.dobrym.kierunku
 - Kontakt: kontakt@wdobrymkierunku.eu
-- Ostatnia aktualizacja indeksu: 2026-09-26
+- Ostatnia aktualizacja indeksu: 2026-10-16
 
 ## Odcinki i artykuły
+
+### Orla Perć
+- Artykuł: https://wdobrymkierunku.eu/odcinki/orla-perc.html
+- Film: w przygotowaniu; brak opublikowanego odnośnika.
+- Zakres: Zawrat–Krzyżne, 4,3 km grani, trzy odcinki, sześć dojść na Zawrat, dziesięć znakowanych zejść, wyposażenie na lato bez śniegu i lodu, FAQ oraz źródła danych i wizualizacji 3D.
+- GPX własny 20.09.2026: https://wdobrymkierunku.eu/assets/gpx/orla-perc-2026-09-20.gpx — 9500 punktów całodniowej wycieczki z rejonu Kuźnic; publiczna kopia bez tętna i kadencji, z zachowaniem współrzędnych, wysokości i czasu.
 
 ### Giewont
 - Artykuł: https://wdobrymkierunku.eu/odcinki/giewont.html
@@ -51,7 +57,7 @@
 
 ## Oficjalne źródła statusu
 
-- TPN: https://tpn.pl/komunikat-turystyczny
+- TPN: https://tpn.gov.pl/komunikat-turystyczny
 - BgPN: https://bgpn.gov.pl/komunikat-turystyczny
 - TANAP: https://www.tanap.sk
 - HZS: https://hzs.sk
