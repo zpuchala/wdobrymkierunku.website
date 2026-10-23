@@ -1,0 +1,43 @@
+name: Update channel stats
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'   # każdy poniedziałek, 5:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Fetch stats and update media kit
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        run: python3 scripts/update_stats.py
+      - name: Commit changes and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "Bez zmian w statystykach."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update channel stats in media kit"
+          git push
+          # Push wykonany tokenem GITHUB_TOKEN nie uruchamia innych workflowów,
+          # więc publikację strony uruchamiamy ręcznie.
+          gh workflow run pages.yml --ref main
