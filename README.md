@@ -46,3 +46,11 @@ Następnie otwórz `http://localhost:8000`.
 Publiczny GPX Orlej Perci jest kopią bez pomiarów tętna i kadencji; współrzędne, wysokości i znaczniki czasu są zachowane. Oryginał pozostaje lokalnie w `.local-backups/gpx/`, poza publikowanym katalogiem `site/`. Katalog kopii jest ignorowany przez Git.
 
 Każdy push do `main` zawierający zmiany w `site/` uruchamia publikację.
+
+## Automatyczne statystyki w media kicie
+
+Workflow **Update channel stats** (`.github/workflows/update-stats.yml`) w każdy poniedziałek uruchamia `scripts/update_stats.py`, który pobiera dane z YouTube Analytics API i YouTube Data API i podmienia liczby w `site/media-kit.html` między znacznikami `<!-- stats:… -->`. Jeśli liczby się zmieniły, robi commit i uruchamia publikację strony. Można go też uruchomić ręcznie: **Actions → Update channel stats → Run workflow**.
+
+Wymagane sekrety (Settings → Secrets and variables → Actions): `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (z jednorazowego `python3 scripts/authorize.py`) oraz `YT_API_KEY` (klucz API ograniczony do YouTube Data API v3). Projekt Google Cloud: `wdk-youtube-analytics`.
+
+Test bez dostępu do API: `python3 scripts/update_stats.py --fixture plik.json --dry-run`.
