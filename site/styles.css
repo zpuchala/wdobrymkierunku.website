@@ -295,3 +295,21 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .article-related h2{margin-top:32px!important}
 .article-related .link-grid{margin-top:16px}
 @media(max-width:560px){.transcript-inner h3{display:block}.transcript-chapter-time{margin-right:7px}.article-related{margin-top:42px}}
+
+/* Homepage partnership / media kit callout */
+.partnership { background: var(--night-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.partnership-inner { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, .9fr); align-items: center; gap: clamp(28px, 5vw, 80px); padding-top: 74px; padding-bottom: 74px; }
+.partnership-copy h2 { margin: 0 0 16px; color: #fff; font-size: clamp(30px, 3.5vw, 46px); font-weight: 600; letter-spacing: -.055em; line-height: 1.2; }
+.partnership-copy > p:last-child, .partnership-action p { color: #c6cfcb; font-size: 14px; line-height: 1.8; }
+.partnership-copy > p:last-child { max-width: 620px; margin: 0; }
+.partnership-action { padding: 26px; border-left: 3px solid var(--accent); background: var(--night-card); }
+.partnership-action p { margin: 0 0 22px; }
+.partnership-action .button { min-height: 48px; font-size: 11px; text-align: center; }
+@media (max-width: 760px) {
+  .partnership-inner { grid-template-columns: 1fr; gap: 22px; padding-top: 52px; padding-bottom: 52px; }
+  .partnership-action { padding: 20px; }
+}
+@media (max-width: 560px) {
+  .partnership-copy > p:last-child, .partnership-action p { font-size: 13px; }
+  .partnership-action .button { width: 100%; font-size: 10px; }
+}
