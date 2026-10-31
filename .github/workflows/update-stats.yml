@@ -2,7 +2,7 @@ name: Update channel stats
 
 on:
   schedule:
-    - cron: '0 5 * * 1'   # każdy poniedziałek, 5:00 UTC
+    - cron: '0 5 * * *'   # codziennie, 5:00 UTC (6:00–7:00 czasu polskiego)
   workflow_dispatch:
 
 permissions:
@@ -38,6 +38,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "Update channel stats in media kit"
           git push
-          # Push wykonany tokenem GITHUB_TOKEN nie uruchamia innych workflowów,
-          # więc publikację strony uruchamiamy ręcznie.
-          gh workflow run pages.yml --ref main
+          gh workflow run pages.yml --ref main || echo "::warning::Uruchom publikację ręcznie"
