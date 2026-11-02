@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <title>W Dobrym Kierunku — góry, szlaki i dobry plan</title>
-  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy, Giewont i Śnieżkę oraz przewodnik po Orlej Perci.</subtitle>
+  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy, Giewont i Śnieżkę oraz przewodniki po Orlej Perci i Świnicy.</subtitle>
   <link href="https://wdobrymkierunku.eu/" rel="alternate" type="text/html"/>
   <link href="https://wdobrymkierunku.eu/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://wdobrymkierunku.eu/</id>
-  <updated>2026-10-16T13:55:32Z</updated>
+  <updated>2026-11-02T17:30:00Z</updated>
   <author><name>Zbigniew Puchała</name><uri>https://wdobrymkierunku.eu/autor.html</uri></author>
+  <entry>
+    <title>Świnica — dwie drogi na szczyt, jedna w dół</title>
+    <link href="https://wdobrymkierunku.eu/odcinki/swinica.html" rel="alternate"/>
+    <id>https://wdobrymkierunku.eu/odcinki/swinica.html</id>
+    <published>2026-11-01T00:00:00+01:00</published>
+    <updated>2026-11-02T17:30:00Z</updated>
+    <link href="https://youtu.be/ONe_V-6drto" rel="related" type="text/html"/>
+    <summary>Świnica (2302 m): dwa czerwone szlaki na szczyt — od Świnickiej Przełęczy i jednokierunkowy od Zawratu — oraz jedna znakowana droga zejścia. Dojścia z Kuźnic, Hali Gąsienicowej, Brzezin i Toporowej Cyrhli, łańcuchy, zasady TPN, Świnica zimą, granica i ubezpieczenie, dwa własne ślady GPS autora. Film jest już opublikowany na YouTube.</summary>
+  </entry>
   <entry>
     <title>Orla Perć – zanim podejmiesz decyzję</title>
     <link href="https://wdobrymkierunku.eu/odcinki/orla-perc.html" rel="alternate"/>
     <id>https://wdobrymkierunku.eu/odcinki/orla-perc.html</id>
     <published>2026-10-16T00:00:00+02:00</published>
-    <updated>2026-10-16T13:55:32Z</updated>
-    <summary>Orla Perć od Zawratu do Krzyżnego: 4,3 km grani, trzy odcinki, sześć dojść na Zawrat, dziesięć znakowanych zejść, wyposażenie i własny ślad GPX autora bez tętna i kadencji. Artykuł jest opublikowany; film pozostaje w przygotowaniu.</summary>
+    <updated>2026-11-02T17:30:00Z</updated>
+    <link href="https://youtu.be/4hKhfTYWHQ0" rel="related" type="text/html"/>
+    <summary>Orla Perć od Zawratu do Krzyżnego: 4,3 km grani, trzy odcinki, sześć dojść na Zawrat, dziesięć znakowanych zejść, wyposażenie i własny ślad GPX autora bez tętna i kadencji. Film jest już opublikowany na YouTube.</summary>
   </entry>
   <entry>
     <title>Śnieżka — 52 warianty wejścia</title>
