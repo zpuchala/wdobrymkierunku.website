@@ -39,7 +39,11 @@ Następnie otwórz `http://localhost:8000`.
 ## Aktualizacja treści
 
 - Tekst, odcinki i metadane: `site/index.html`
-- Wygląd i wersja mobilna: `site/styles.css`
+- Wygląd i wersja mobilna: `site/styles.css` (motyw: tło `#101010`, karty `#1f1f1f`, turkus `#008080` na przyciskach i `#2bb3ad` dla tekstu, nagłówki Play, tekst Readex Pro). Po zmianie CSS podbij `?v=` w odnośnikach do `styles.css`.
+- Menu mobilne, filtr odcinków według pasma i odtwarzacze YouTube ładowane po kliknięciu: `site/main.js`
+- Pasek górny, nagłówek i stopka są skopiowane w każdym pliku HTML — zmianę menu lub stopki wprowadź na wszystkich stronach (także w `site/odcinki/`, gdzie ścieżki zaczynają się od `../`).
+- Zdjęcia z Wikimedia Commons użyte na stronie głównej są podpisane w stopce `index.html` (`.photo-credits`); przy wymianie zdjęć zaktualizuj podpis.
+- Chmury pod hero (`site/assets/clouds.webp`, `clouds-1200.webp`) i gwiaździste tło banerów (`site/assets/stars.webp`) są wygenerowane, nie pochodzą z zewnętrznych źródeł.
 - Ikona kanału i ilustracja mapy: `site/assets/`
 - Grafika podglądu Orlej Perci: `site/assets/images/orla-perc-social.svg` (źródło) i `orla-perc-social.png` (1200 × 630 px, do udostępniania).
 
