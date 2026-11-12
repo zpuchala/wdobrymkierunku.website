@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&amp;family=Readex+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="styles.css?v=aster-20261106b">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://wdobrymkierunku.eu/media-kit.html#webpage","url":"https://wdobrymkierunku.eu/media-kit.html","name":"Media kit — W Dobrym Kierunku","description":"Zasięgi, widownia i formy współpracy z kanałem W Dobrym Kierunku.","inLanguage":"pl-PL","dateModified":"2026-11-12","isPartOf":{"@id":"https://wdobrymkierunku.eu/#website"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://wdobrymkierunku.eu/media-kit.html#webpage","url":"https://wdobrymkierunku.eu/media-kit.html","name":"Media kit — W Dobrym Kierunku","description":"Zasięgi, widownia i formy współpracy z kanałem W Dobrym Kierunku.","inLanguage":"pl-PL","dateModified":"2026-11-13","isPartOf":{"@id":"https://wdobrymkierunku.eu/#website"}}</script>
     <style>
       /* Media kit — style lokalne, oparte na zmiennych z styles.css */
       .mk { background: var(--night); color: var(--paper); font-family: var(--font); }
@@ -86,6 +86,12 @@
       .mk-fit { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
       .mk-fit li { padding: 8px 16px; border-radius: 20px; background: rgba(var(--accent-rgb), .14); color: #e9e9e9; font-size: 14px; }
 
+      .mk-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; counter-reset: step; }
+      .mk-steps li { padding: 24px 22px; background: var(--night-card); border-radius: var(--radius); }
+      .mk-steps li::before { counter-increment: step; content: "0" counter(step); display: block; margin-bottom: 14px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .12em; }
+      .mk-steps h3 { margin: 0 0 10px; color: #fff; font-size: 17px; font-weight: 600; }
+      .mk-steps p { margin: 0; color: #c9cfcf; font-size: 14px; line-height: 1.6; }
+
       .mk-rules { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; max-width: 760px; }
       .mk-rules li { position: relative; padding-left: 26px; color: #d3d8d8; font-size: 15px; line-height: 1.6; }
       .mk-rules li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--accent); font-weight: 700; }
@@ -102,6 +108,7 @@
         .mk-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .mk-videos, .mk-offers { grid-template-columns: 1fr; }
         .mk-grid2, .mk-personas { grid-template-columns: 1fr; }
+        .mk-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       }
       @media (max-width: 560px) {
         .mk-hero { padding: 54px 0 42px; }
@@ -110,7 +117,7 @@
         .mk-btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; }
       }
       @media (max-width: 420px) {
-        .mk-stats { grid-template-columns: 1fr; }
+        .mk-stats, .mk-steps { grid-template-columns: 1fr; }
         .mk-bars li { grid-template-columns: 78px 1fr 44px; gap: 8px; }
       }
     </style>
@@ -241,12 +248,26 @@
       </div>
     </section>
 
+    <section class="mk-section" aria-labelledby="przebieg">
+      <div class="mk-wrap">
+        <h2 id="przebieg">Jak przebiega współpraca</h2>
+        <p class="mk-sub">Od pierwszej wiadomości do danych po publikacji.</p>
+        <ol class="mk-steps">
+          <li><h3>Dobór odcinka</h3><p>Na podstawie briefu wybieramy szlak i odcinek, w którym produkt naturalnie się pojawia — np. kask przy Orlej Perci albo czołówka przy wyjściu przed świtem.</p></li>
+          <li><h3>Scenariusz integracji</h3><p>Fragment z produktem, ok. 45–60 s w części o przygotowaniu do trasy, wysyłamy do akceptacji wraz z planem ujęć. Akceptujesz informacje o produkcie, resztę odcinka przygotowujemy niezależnie.</p></li>
+          <li><h3>Publikacja</h3><p>Film ukazuje się w ustalonym terminie, z oznaczeniem współpracy opisanym niżej, z linkiem w opisie i na stronie odcinka.</p></li>
+          <li><h3>Dane po publikacji</h3><p>Po 7 i 30 dniach przesyłamy dane z YouTube Studio: wyświetlenia odcinka i utrzymanie widzów w momencie integracji. Kliknięcia zmierzysz własnym linkiem z parametrami UTM.</p></li>
+        </ol>
+      </div>
+    </section>
+
     <section class="mk-section" aria-labelledby="zasady">
       <div class="mk-wrap">
         <h2 id="zasady">Zasady</h2>
         <ul class="mk-rules">
           <li>Polecamy tylko produkty, które pasują do treści odcinka i do bezpiecznego chodzenia po górach.</li>
-          <li>Każda płatna współpraca jest wyraźnie oznaczona w filmie i w YouTube.</li>
+          <li>Każdą płatną współpracę oznaczamy zgodnie z rekomendacjami UOKiK dla influencerów: w YouTube („Zawiera płatną promocję”), słownie i na planszy na początku integracji oraz w pierwszych liniach opisu filmu.</li>
+          <li>Linki partnerskie i kody rabatowe również oznaczamy jako reklamę.</li>
           <li>Nie promujemy przekazu sprzecznego z zaleceniami TPN i TOPR.</li>
           <li>Merytoryka odcinka pozostaje niezależna od partnera.</li>
         </ul>
