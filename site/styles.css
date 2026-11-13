@@ -183,6 +183,12 @@ h1 em, h2 em { color: inherit; font-style: normal; }
 .reason-icon { display: grid; width: 120px; height: 120px; place-items: center; margin-bottom: 26px; border-radius: 50%; background: #fff; color: var(--teal); }
 .reason-icon svg { width: 52px; height: 52px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
 .reason-list b { font-family: var(--font-head); font-size: 20px; letter-spacing: .02em; }
+.insurance-note { max-width: 760px; margin: clamp(44px, 5vw, 64px) auto 0; padding: 22px 26px; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); background: var(--card); color: var(--soft); font-size: 16px; line-height: 1.7; }
+.insurance-note h3 { margin: 0 0 8px; font-size: 20px; }
+.insurance-note p { margin: 0; }
+.insurance-note p + p { margin-top: 12px; }
+.insurance-note a { color: var(--accent); text-underline-offset: 3px; }
+.insurance-note .insurance-ad { color: var(--muted); font-size: 15px; }
 
 /* ---------- Współpraca (pas CTA) ---------- */
 .partnership { background: #000; }
@@ -418,6 +424,7 @@ h1 em, h2 em { color: inherit; font-style: normal; }
   .feature-gallery a { aspect-ratio: 4 / 3; }
   .reason-list { grid-template-columns: 1fr; gap: 40px; }
   .reason-icon { width: 100px; height: 100px; margin-bottom: 18px; }
+  .insurance-note { padding: 18px; }
   .partnership-inner { grid-template-columns: 1fr; justify-items: center; padding-top: 44px; padding-bottom: 44px; }
   .partnership-logo img { width: 120px; height: 120px; }
   .partnership-copy .button { width: 100%; min-width: 0; }
