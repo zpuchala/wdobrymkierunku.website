@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <title>W Dobrym Kierunku — góry, szlaki i dobry plan</title>
-  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy, Giewont i Śnieżkę oraz przewodniki po Orlej Perci i Świnicy.</subtitle>
+  <subtitle>Praktyczne porównania tras na Babią Górę, Rysy, Giewont i Śnieżkę oraz przewodniki po Orlej Perci i Świnicy, a także wypadki na Orlej Perci według danych TOPR.</subtitle>
   <link href="https://wdobrymkierunku.eu/" rel="alternate" type="text/html"/>
   <link href="https://wdobrymkierunku.eu/feed.xml" rel="self" type="application/atom+xml"/>
   <id>https://wdobrymkierunku.eu/</id>
-  <updated>2026-11-02T17:30:00Z</updated>
+  <updated>2026-11-20T12:00:00Z</updated>
   <author><name>Zbigniew Puchała</name><uri>https://wdobrymkierunku.eu/autor.html</uri></author>
+  <entry>
+    <title>Orla Perć: gdzie dochodziło do śmiertelnych wypadków i dlaczego?</title>
+    <link href="https://wdobrymkierunku.eu/odcinki/orla-perc-wypadki.html" rel="alternate"/>
+    <id>https://wdobrymkierunku.eu/odcinki/orla-perc-wypadki.html</id>
+    <published>2026-11-18T00:00:00+01:00</published>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://youtu.be/kMcvkKVTRDE" rel="related" type="text/html"/>
+    <summary>Gdzie na Orlej Perci ginęli ludzie i dlaczego akurat tam: dane TOPR z lat 2010–2019, sześć miejsc od Zawratu po Krzyżne, przyczyny (śnieg, mokra skała, nieuwaga), pułapka Żlebu Drège'a i poszukiwania z lipca 1914 roku. Film „Tragedie na Orlej Perci | 985 zgłoś się” na YouTube.</summary>
+  </entry>
   <entry>
     <title>Świnica — dwie drogi na szczyt, jedna w dół</title>
     <link href="https://wdobrymkierunku.eu/odcinki/swinica.html" rel="alternate"/>
