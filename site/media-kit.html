@@ -52,6 +52,8 @@
       .mk-video h3 { margin: 0 0 10px; color: #fff; font-size: 15px; font-weight: 600; line-height: 1.4; }
       .mk-video p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
       .mk-video p b { color: var(--accent); font-weight: 600; }
+      /* Próbki 3D: .article-figure z .article-video (styles.css) w siatce .mk-videos — bez ich marginesów; odstępy daje gap siatki i margin-top podpisu */
+      .mk-videos .article-figure, .mk-videos .article-video { margin: 0; }
 
       .mk-grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
       .mk-panel { padding: 24px 22px; background: var(--night-card); border-radius: var(--radius); }
@@ -154,7 +156,7 @@
     <section class="mk-section" aria-labelledby="filmy">
       <div class="mk-wrap">
         <h2 id="filmy">Najpopularniejsze odcinki</h2>
-        <p class="mk-sub">Długie, merytoryczne filmy (8–13 min), które widzowie oglądają przed wyjściem w góry — także długo po premierze.</p>
+        <p class="mk-sub">Długie, merytoryczne filmy (8–23 min), które widzowie oglądają przed wyjściem w góry — także długo po premierze.</p>
         <div class="mk-videos">
           <a class="mk-video" href="https://youtu.be/4hKhfTYWHQ0" target="_blank" rel="noopener noreferrer">
             <img src="https://img.youtube.com/vi/4hKhfTYWHQ0/mqdefault.jpg" alt="Miniatura odcinka Orla Perć" loading="lazy" width="320" height="180">
@@ -169,6 +171,7 @@
             <div><h3>Babia Góra – który szlak wybrać?</h3><p><!-- stats:video-hs5wtevaPq4 --><b>111 tys.</b> wyświetleń<!-- /stats:video-hs5wtevaPq4 --> · sześć wejść, parkingi i profile 3D</p></div>
           </a>
         </div>
+        <p class="mk-sub" style="margin:32px 0 0">Od listopada 2026 kanał prowadzi też serię 985 zgłoś się o historii wypadków i akcji ratunkowych w Tatrach: miejsce zdarzenia na modelu 3D, źródła (kroniki TOPR, prasa z epoki, dane TOPR) i wnioski dla dzisiejszego turysty. Pierwszy odcinek, <a href="https://youtu.be/kMcvkKVTRDE" target="_blank" rel="noopener noreferrer">Tragedie na Orlej Perci</a> (23 min), widzowie oglądają średnio przez 9:26.</p>
       </div>
     </section>
 
@@ -278,6 +281,11 @@
       <div class="mk-wrap">
         <h2 id="modele-3d">Modele i filmy 3D na zamówienie</h2>
         <p class="mk-sub">Te same modele terenu, na których powstają nasze odcinki, przygotowujemy dla instytucji i firm związanych z górami. Teren budujemy z lotniczego skanowania laserowego (LiDAR) i ortofotomap GUGiK, po słowackiej stronie z danych ÚGKK SR. Przebieg szlaków i liczby bierzemy ze źródeł oficjalnych.</p>
+        <div class="mk-videos" style="margin-bottom:32px">
+          <figure class="article-figure"><div class="article-video"><iframe src="https://www.youtube-nocookie.com/embed/kMcvkKVTRDE?start=601" title="Wizualizacja miejsca wypadku: Żleb Drège’a" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption>Wizualizacja miejsca wypadku: Żleb Drège’a</figcaption></figure>
+          <figure class="article-figure"><div class="article-video"><iframe src="https://www.youtube-nocookie.com/embed/kMcvkKVTRDE?start=726" title="Grań ze znakowanymi zejściami: Granaty–Krzyżne" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption>Grań ze znakowanymi zejściami: Granaty–Krzyżne</figcaption></figure>
+          <figure class="article-figure"><div class="article-video"><iframe src="https://www.youtube-nocookie.com/embed/krOkwWOxbOk" title="Porównanie wariantów wejścia: Giewont z Kasprowego" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><figcaption>Porównanie wariantów wejścia: Giewont z Kasprowego</figcaption></figure>
+        </div>
         <div class="mk-offers">
           <div class="mk-offer"><h3>Film z przelotem nad trasą</h3><p>W 4K, z linią szlaku, opisami miejsc i profilem wysokościowym. Warianty trasy obok siebie, dzień, noc albo zima.</p></div>
           <div class="mk-offer"><h3>Kadry do druku</h3><p>Widoki 3D w wysokiej rozdzielczości na tablice informacyjne, plakaty i mapy.</p></div>
@@ -290,6 +298,8 @@
           <div class="mk-persona"><h3>Organizacje turystyczne</h3><p>Porównania wejść na szczyty regionu, przeloty nad szlakami do promocji regionu i wersje językowe dla gości z zagranicy.</p></div>
           <div class="mk-persona"><h3>Organizatorzy biegów górskich</h3><p>Przelot nad trasą biegu z profilem, punktami odżywczymi i kluczowymi podejściami. Film na odprawę i do strony zapisów.</p></div>
           <div class="mk-persona"><h3>Przewodnicy</h3><p>Wizualizacje do omówienia wyjścia z klientami i grupami: przebieg trasy, przewyższenia, trudne miejsca i drogi odwrotu.</p></div>
+          <div class="mk-persona"><h3>Redakcje i wydawcy</h3><p>Wizualizacja miejsca zdarzenia w 24 godziny od akcji, w pionie i poziomie, z podpisem źródła danych. Kadry 3D do map, przewodników i artykułów.</p></div>
+          <div class="mk-persona"><h3>Ratownictwo i edukacja</h3><p>Materiały do kampanii o bezpieczeństwie i zajęć edukacyjnych: gdzie i dlaczego dochodzi do wypadków, pokazane na prawdziwym ukształtowaniu terenu.</p></div>
         </div>
         <p class="mk-sub" style="margin:32px 0 22px">Wycenę przygotowujemy do konkretnego zakresu: obszaru, długości filmu, liczby wersji językowych i kadrów do druku.</p>
         <a class="mk-btn" href="mailto:kontakt@wdobrymkierunku.eu?subject=Model%203D%20na%20zam%C3%B3wienie%20%E2%80%94%20W%20Dobrym%20Kierunku">Zapytaj o model 3D</a>
@@ -300,6 +310,7 @@
       <div class="mk-wrap">
         <h2 id="kontakt">Porozmawiajmy</h2>
         <p>Chętnie przygotujemy propozycję dopasowaną do Twojej marki i do planowanych odcinków.</p>
+        <p>Zbigniew Puchała, autor kanału. Modele terenu i filmy robię sam. <a href="autor.html">O autorze</a></p>
         <a class="mk-btn" href="mailto:kontakt@wdobrymkierunku.eu?subject=Wsp%C3%B3%C5%82praca%20%E2%80%94%20W%20Dobrym%20Kierunku">kontakt@wdobrymkierunku.eu</a>
         <!-- stats:source --><p class="mk-src">Źródło danych: YouTube Analytics API i YouTube Data API, kanał W Dobrym Kierunku. Aktualizacja automatyczna: 27.11.2026.</p><!-- /stats:source -->
       </div>
